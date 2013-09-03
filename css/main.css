@@ -45,7 +45,7 @@ body {
 .jumbotron {
   padding:30px !important;
   border-bottom: 1px solid #e5e5e5;
-}
+  }
 
 .jumbotron .btn {
   font-size: 21px;
@@ -91,4 +91,14 @@ body {
 .content img{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+a{
+  color: #741D61;
+}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
+{
+  background-color: #741D61;
 }
