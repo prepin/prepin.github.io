@@ -10,8 +10,20 @@
 <body>
 	:)
 
-	<a href="http://vk.com/share.php?url=http://www.paulrepin.com/test5.html" target="_blank">Поделиться ВКонтакте</a>
+	<!--a href="http://vk.com/share.php?url=http://www.paulrepin.com/test5.html" target="_blank">Поделиться ВКонтакте</a>
 
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 4629886, onlyWidgets: true});
+</script>
+
+<!-- Put this div tag to the place, where the Comments block will be -->
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 15, width: "650", attach: false});
+</script>
 
 </body>
 </html>
